@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Anamika | Portfolio </title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="./assets/logo/v-logo.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <!---unicons-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <h1 class="port">Anamika Portfolio</h1>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">My Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+
+        <a href="https://bit.ly/3W6T4BR"><i class="fab fa-whatsapp-square" target="_blank"></i></a>
+        <a href=".linkediwwwn.com"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Girianamika7277" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section style="max-height: 100%">
+    <div id="ripple" style="height: 100%; 
+       background: url(https://th.bing.com/th/id/OIP.mtkDfB5uYhNNZVi2G39cFQHaFM?w=254&h=180&c=7&r=0&o=5&pid=1.7) 
+       /* left top / cover; */
+       ">
+        <section class="home" id="home">
+   
+          <div class="home-content">
+              <div class="text">
+                <div class="text-one">Hi</div>
+                <div class="text-two">I'm Anamika kumari</div>
+                <div class="text-three">Full Stack Web Developer</div>
+                <div class="text-four"></div>
+                <div class="button">
+                  <button download="">Hire Me <i class="uil uil-file-download button__icon"></i></button>
+                </div>
+              </div>
+            </div> 
+            </section>
+    </div>
+
+ 
+ <!-- About Section Start -->
+ <section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCADHATQDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAEFAgQGBwP/xABTEAABBAECAgQHCA0KAwkAAAABAAIDBBEFEiExBhNBURQyYXF0gbMVIiMzNVSR0zRCcnN1gpKho7G00dIWJFJTY5OUorLBYmSDJURVhKTCw/Dx/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAMEBQIBBgf/xAAwEQEAAQMCAwUHBAMAAAAAAAAAAQIDEQQSEyExBRVRcbEUIkFSYaHBIzIzQkNTgf/aAAwDAQACEQMRAD8A9WJOTxPNRl3eUPMqEE5d3lMu7yoRBOXd5TLu8qEQTl3eUy7vKhEE5d3lMu7yoRBOXd5TLu8qFIBPIIGXd5TLu8rTk1TRoXFs2p6fE8HBbJbga4HzF2V9ILlC1wq26k57q88Uh/yOKDYy7vKZd3lPp9ahBOXd5TLu8qEQTl3eUy7vKhEE5d3lMu7yoRBOXd5TLu8qEQTl3eUy7vKhEE5d3lMu7yoRBOXd5TLu8qEQTl3eUy7vKhEE5d3lMu7yoRBOXd5TLu8qEQTl3eUy7vKhEH0aTjn2ojeXrRBgeZUKTzKhARFKCEUqEBFKhARFTdItYdpNOJtYB+pX5DW0+LAJ3gZfMQeG1g4nhzI715M4jMvYjPJOq67X09zq8LBYvYGY94ZFAXDc02JOJBI4hoBJHHAByuVt3L+oE+HWXysJyII8w1G8c4ELTx/GLitXTtOsXJC+NzZXiR4sajYBfFG9ziZG1WE5c/OdxzjPjOJ96vvFT1aQyRspSPfFJNE+adzKkEhje5odGXZcdwAIw3HHms65fmqcRPJet2op69VbYkmgftilgii2NLW7Gt48jl3UPb9Lgvn173NEk0VWaIH40sj2A9wsVy9gP3TG+dWkLLdmV9evXk6+M7bAstfBFVP9u/Bye4N3E8+XE/F8JjskS1bEd6PIcyvDPK57SOB3wM2vYebSfzEYEUVJcNnT9a1GuQ2rclwxrXGreJsxbOQLHFxdt7iyXH6l1uma9U1B7a8rDWukEthe7dHPt4k1pMDdjmQQCO7HE8YWSQdVHJVsVhJvdAJomRNk2++eGBrjxHMggHHHBwcYy7BG50heGMLZN0e/exzTkPZ1fvg4cwRxClov1Uz4wirs01RmOr0xFS9H9WdqMD4Z3sfbrNjc6VuNtqvJnq7DdvDJwQ/HaO5wV0tGJiqMwozExOJERF68EREBFKIIRFy1zpZLXt3a0OnRSx1rElbrJLT2Oe6I7XnayJwAzkDj2fQHUoqnRNYdq7LxfWbXkqyxMLWSmVj2yxiRrg5zGnPMEY7PKrZAREQEREBFKhARSiCEREH0by9aI3l60QYHmVCk8yoQFKhEEqERBKhEQCQASSAAC4lxwABxJJPYuDmkb0i1i09hlbRrsEDnkGOXwRrnNETD4wMzg9zjwOxo5Fw29dqr3CqKzOEuoyjT43dkYlY50sn4rA8jy4HaqPSYYWVn2I2bXahYsX5OOfjpHdW0Hua3aAPJ5VS1dzbG2FnT0ZqzLeYxkbGRxtayONrWRsY0NYxjRgNa0cAB2LJQsJHFoWS0IjM4SZfhWwiOw8hm9z2xuMETTkAPkJAycHAGfLjKNm3PmiLJ4zGGn4VhayRrs4fE4EgjgfKO0DPGvsRusS6dM1r3y0bEk8TfCXQQkvjMZMwaxxcO4Y9eOBVYvBRbdicSXLk92ds1g2A2WTAIidgYZwG0YGP1d7Yw64dW7Dds1oLcL68zSWOLXAsO18cjTlskbuxw7D/scGtOhRbXdXfvtl5sfK6GSMH/AIogxoI8xHkIVqx24LNcxVMOJjE4cnTlsaDrFZ9iF7Y39a17K+HMkZPkSOql23LMhkhbzaQ7h78bvRWua9rHscHNe1r2uachzXDIIK5vUWNdTnkLGudU26hDuAOJapEvDPIkBzfM5WujyE1PBnHLtPk8C3dj42MY+J/nLHMz5crU0l3dG2VG/Tj3lgiIryqIiIJRQiD43Hvip35WOLXx1bMjHDm1zYnOBC8uDGRvsxsGGMtWg0Du613/ANK9O1D7A1P0G37Fy8zd8bb9Lt+1cusckcz78eU/h1XQ3lrvpNL9mC6tcp0N8XXfSaX7MF1a5SCIiAiIglQiIJRQiAiIg+jeXrRG8vWiDA8yoUnmVCAiIgIiICIiD4WqsduNsbnOY9kkc0EseN8MzD717dwI7wQRggkHgVQ6e10dKpC/x6zHVJOGPhK73QO4dnFveulVJbj8EvPP/d9RkD4yPFjuhoa6M9nwgAc3yhw5uGaert7qMx8FnT14qxKVi5ocMLJFkNCOUtSR00EkZbVkmgLXda6AtdOyTI24hcW5bjOSHZ5cO0IRYmMr5q4gYXDwdrnh0+zAyZw3LAc5wA48OfFbSle5e7qs5yhowFKKF456vhecW0dQIALnVpomDGd0kw6hgwe8uCuqVOKhA2ux75HbnPmllIMs0zsbpHkADJx2AAAADACq4Y/DLscI4wUJWWbjvtXWmjdBXHlbnrH92GDt4Xi1tHbmmndPxUL9easQIiK6rCIiAiIg1tQ+wNT9Bt+xcvM3fG2/S7ftnL0zUPsDU/QbfsXLzN3xtv0u37Zy6/qin+SPKfw6rob4uu+k0v2YLq1ynQ3xdd9JpfswXVrlKIiICIiAiIgIiICIiD6N5etEby9aIMDzKhSeZRBCKUQQilEEIpRBC+c8EFmKWCeNskMrdr2O5EcxxHHI4EHORjPYvqiChmiuUc9cJbNQD3tuNpknjb3W42Dcfu2g8uIHN0scyWNssT2SRO8WSNwew+ZzeCvf19i5GyIH6nq9htK2WutNhZa0+ZsUxdXjbDJuY2RjiNwdjxuSy9VZotxvzhcs3apnbKzAJ4AEnuHFCCACRgHOCeAOFUSPhla+GS7q/VyDDo7emGbIHHi5tYnhjnv7FhGyvC9zxf1uSUs6veyjMZdmc7GyTwEgeQOCoe7jOVrcuXuZHG6WV7I4m8XSSuayMDyucQPzrCJtu9gUw+Cu7xr0rNri3/k4pBknue5oaOYD1q6bFVk1eo6SrcJ8Duuim1SRs0j5mSwOzHG6R+0tGccG8yupWhprFFcb85Vb16YnbD41q1epDHXrsDIowcDJcSSS5znOdxLiSS4k5JOe1fVSi0+imhFKIIRSiCEUog1dQ+wNT9Bt+xcvM3fG2/S7ftnL0zUPk/U/QbfsXLzN3xtv0u37Zy6/qin+SPKfw6rob4uu+k0v2YLq1ynQ3xdd9JpfswXWLlKhFKIIRSiCEUoghFKIIRSiDNvL1ojeXrRBgeZUKTzKhAUqEQSoREEqERAREQfOxOyrXs2X+JWhlncB2iNpfj8y5ytG+KvXjkOZQwOmPfM/4SQ/SSrTW3g1YK3D+e3K8LuPHqoybMnDuIZg/dLRPHJPbxXzXbV3M02/+rmmp5TLTewWrVmGV0ng9WOsOqjkfG2SaZhmc+UxkOOBtDRnHM4yeGXgUTAeolt1z/Y2JSz1xzF8Z/JQ/BXyXHDL0MTIyeXhNcOGzzuaQW/cFbSw6qpjHgsxENF8msVZKViOGC6atjrMs3QTOifE+GRroW7mk4II2kcvFKvdP1mhqO1jHdVYO74GUjLizxurcOBx9sOBHa0Z46HDjlzWgAlznHDWtAyXE9w5nzKmZJakux3zUkZFJJDdrvfVlttmjgY6Oq1zKrg9rxufK7djxmgEhuG7PZmrrp/Tx7qC7airn8XdrUvahT06HrrLnYw8tZE0ySuDG73lrR2NHEnPcObgDTnVtfeMRVW/dSU2we3ul3+Ra4r6lbnjn1GWI7DEdjDvcRE/rWx5a1jGs3Br3ANcXFrcuwwNW9XqqIjMIKbFUzzWkfSLRJJhD10sfwogdJZhfBCydweRC982MOOx3DHZ3EE2y5bUqtEULTpjVqxO62QzyvbWj3y8JMytAf8ACDg8tO4g4zxW5p2uaXHp1E6hqlMWhFtl3TsdK8tJaJHRsJcC4Ydg8RnB4he2L83YnMPLtvYvUVO/pR0cYMi3JIe6Gpafn19Xj86+cPSnRZp4INtyPrpGRMmng2Qh7ztaHEOLhk4AJbjj5VZQr1ERMjXuMfJTvxsBc+SrZjY0c3OdE4ABeXh7JHWJGODmPtWnNI5Edc5epzWKtZofYsQQMLg1rp5WRtLueAXkDK876RR0Kdl9mlq2mzMv2blh0WWSGBxaJCN0MvHcScZaOaZ5Yc7fe3LfojYhil1WCTc11mzUELyPgnyNrZMQcPtscQDjIBxnBA7FchojejsGlStu6zpz5dTFW5MG2IoHV3tij2NiG8vDmEZBznPYMK+it3mRxvfE3UK7m7o7umuic6VnY58BcBnvLHOyeQHIHSxRfCvcp2+sEEoc+PHWxPa+OePPLrIpAHjycF90BERBKhEQSihEBERB9G8vWiN5etEGB5lQpPMqEBERAREQEREBERBSam7rNRqxY4VKT5Xcft7Umxv0Bjvyl8Vi9wlu6vNxwbfg7M89laJkR/zb/pWS+J7RucTU1T4cmlZjFEMJYoZ43xSsD4343NORyOQQQcgg8QQcjmtffcrcJWyWoB4s8bQ62xv9vE3G77pvHvafGO2ioxVjlPOEmGlYmrWo6VeKeF7NSsisSyRvvoImmadg453OADMc/f8AJWj8RtfJKWxxt4ufKRHG0eVz8AfStF9SlK+SSStXfJLH1Uj3xMLnszu2uJGTxwf/AMW1o9HTTJfElaOSeraDoX2N0z44Jo2zRhhmLsAEuaMf0VsdnRTdnhRy+KOuuaIzLVs6gIak9ytVntxRdUDKMwVSZJGxN2yyDc7ieO1jvOuftav0knbtr2q9HvNWk2V/qfac7/SF32pwQWtP1CGdgkidXkc5ri4e+jHWMOQQeBAI49i4mHSdKdDXca5LnQxOceus8SWAk/GLWv029NiZjOUFNyq5lQvr6rLJ102oOnm/rbNNk0g+5dK849WFIg1UcrzR5qEI/U5dB7kaR82/TWfrE9yNI+bfprP1ihjtCI6QTbz1c/1Gq/Pm/wCAi/iWcUWoxzV5ZLEczYZY5+qkpNbG98bg9nWdW8OwCAcZGcd3A3vuRpHzb9NZ+sT3I0j5t+ms/WLrvHzOFD6fyp6R92n/AODm+vT+VHSPu0//AAc316+fuRpHzb9NZ+sT3I0j5t+ms/WJ3j5/Y4UK3VbWsatNWnmnrxugikhYIqW5gD3h7iBLI7BOADjuC0RBqo5XWDzafCP/AHLoPcjSPm36az9Yp9yNI+bfprP1id4x9fscKHPdTq3z4f4CL+JW+mavrml1fBIH1JI+ummzLTfkOldvcGhkoaBnJ5dq2fcjSPm36az9YnuRpHzb9NZ+sTvHz+xwoQ/Wtbu2dNbJ4DHMblWvDZiqSNmg66VsZLXGY5ac++aQQR9Le2p2TagbI9nVzMfJBZiznqp4jse0HtHa09oIPauS0/SdKbqukEVhlhtztzLO4dbAxj43Yc8jLTxHBdPF8Fql6Pjtt1K13HZ1sbnVpD6x1f0LR093i0bkFyNs4byIisoxERAREQEREH0by9aI3l60QYHmUQ8yoQSihSgIihBKIoQSjfGb5x+tQsm+M3zhBylNxfXjlPEzumsk95nlfL/utha2njNHTwOJ8Gh5fchbL/gxmUtjb3zObGPpeQF+f3p3XavOWrT0gRaj9U0aMkP1KgCOxtiN5+iMlfF2t6IOVt0n3itak+g9WB+ddUaa9c/ZRM+US5qu0U/uqhYrOlJ1GpQdjL1d9U/f65dYjz52mQfiqik6Q0xnqad2XuMphrt9ZLnP/wAirbWq6lbMQ3MqRxSsnY2mXmXrYzljnzv48O4NAPbkcDu9mdka7jU3NkxH15KGp1+nppmN2fJ6Rb+xLvotn2blyUHxFb7xD/oatVnSrWOpkhsxU7LXxSRF4D602HtLcks3Mz+IFoR61NFWaJK8DJoxXhjYBPJFI4uZF8ax2R38Y+zGeK2O0+ztTVETFOcZQafWWauUVL1FS+7GofNaP95Z/ch1fUWurt8FofD9Zg77PvdgaePDyrC9hv8Ay+jQ4tPiukU6dU1nUaNS6x2mRNsNc8Mc224tw9zMZDh3dy2vcbW/6/S/7u3/ABJ7Df8AD0ecWnxaiLa9xtb+c6Z/d2v4k9xdb+c6b+Rb/iT2C/4ej3i0+LVRbPuJrXznTfybn8S5u3fv1bctQwU3llyWnvElkAmNrnF+MHu5ZXvsF7w9Di0+K7JA7R6yo3sH2w9XFUbtQvtOPB6R/wCpZ/ct7ShqWqzWoY20IjXhhmJebTw4SvewDAxy2/nT2C98vocWjxWmmuD9V00YPCLUT9McYV48g6vWA5s0q0XeTfZg2/qP0Kv0/R79e9XtTz1HMhjstayuyYPe6YNZxMjsYGO5b9PM1rVbhztMrdPr5AHwVMua9w88jpPyQtrR26rVvbV1VrkxNWYb6KEVtGlEUIJREQEUIg+jeXrRG8vWiDA8yoUnmVCAiIgIiICIiAtLVrc9LT7Viu0Os5hhrgloAmnkbC1xLve8Cc8SM8u1bqwlihsRSwTxskhlaWSMeMtc09hC8nnGIHl9ye5Wc+PwzVxSJ3RxyvnhfDni6N7Y8AjOSC1zhxxgbVWibSXHJlrl/aZcuf6zIC5dZrLrWkXo6tWUTQPqR2Ay/vke1zpJI9rZo3Nfj3oxu3HyrWpWZtTt+B+5dN8u+0wOdYGw+DtY5x+EgJ47uHFRabVXtLG3g01fWOqC/pKL854kwoxPX4bZY8dm0/uCnrof6wf5v3LrjoVnJzoVT8SzV/gCj3Dsf+BQj/zdUfmCvd+X/wDQq902/ncj1sI5vaPyv3LF1ukzO+zAz7t4b9O5dgNCsnlodQeWS1X/ANmOVXNOKluzUbpFBstebqXvMzS0u2tfluyvnHEdqd96if8AD9zuq386khs1LG7weeKbZjcYXbg3OcZISf4tnpFT27FuTyWbtfTtUlbBG2V1ygIoGvwzqdlhpL3uySdz+wY/Vpz/ABbPSKnt2Las6iq/ppuVRicTyZtyzFnURRE5jMNnvWU3x2m+Twn/AExrFZzfHad5TY/0xr519G7vox8g6P8AeJPbSK5VN0Z+QdH+8Se2kVwglFCIC8v1fPuza/Ddz2Ui9QXmGsfLVr8NWvYyIMJvGHmV/wBD/s7V/QaPt51QTeMPMr/of8oat+D6f7RMg7VvNvnH61X6Pt9zNPA8YRObKDzEwkcJQfLu3ZW8tCL+aahLByr6j1tuv3MtMA6+MfdDEg8oeg30REBERAREQEREH0by9aI3l60QYHmVCk8yoQEREBERAREQEREHEdLflWv+DIP2ida3Rj5cH37WfZwLZ6W/K1f8GQftE61ujHy7/wBXWPZQIPQURQgLzrVPlzWPTz7GJeirzrVPlzV/Tz7GJBhDGHdEakmOMWu8+4SQ9T+shVE/xbPSKnt2LoaLd3QbUP8AgvRzebq56zj+bK56xwY0f8zU9uxbWjqzp648/RjayMaiifL1bPespfjdO89j/TGsVk/jJp/nsfqYFitl3nRj5B0f7xJ7aRXCp+jHyDo/3iT20iuEGnqN00IYpRE2Qvm6o9ZKYmMaIpJnPc5rHngGngGqlg6XVbMkUNdtCWWXPVsZds5cdpdxJqYHLtW90iLRShLi4N6+xu2YLtvgFrO3PDPcuApdGIdAt6dqu2yIYniCfMsU7gyaN21zWRtDsNIBf5M4zjiHqVabwmtUsBhb4RBDOGZ3FokYH7SQOzPcvNdX+WrX4bsj9BIuw06Nl6OlDYe8162jaRJXhjmeyOTwiJ26dxhLSfF2t44GD2uXEaiDHr2o1w98jIdZcWule58jS+tKerc9xJOBgjJJw4IPpL4w8yv+h/yhqv4Pp/tEy5+Txz5MBXPReuyzqGotfJZaGUKrgyvZmr7yZ5Rl3UOa847OPDPlQd0tLUuDdMcPHbq2n9Xjn795jfj8Uuyp098pF2CSV03gd2WrHK/BkfGGRyt6wjm5u7aT27e/n85Hi1qNWCP30eml1q24Y2tsyRGKCHOfGw5z3Ds97/SCCwREQEREBERAREQfRvL1ojeXrRBgeZUKTzKhAUqFKAoUqEEqFKhAREQcP0t+Va/4Mh9vOtfov8uD7rVj9McK2OlvytX/AAZD7edavRY/9uM82q/mZCEHoaIiCF5zqvy3rHp//wAUS9GXnGrfLWtenH2USCz0WIzdDNZjaPfFmpOYB/SZEx4/UuTnO6ONw5OsU3A+QzsK7zoSGu0QNcA5rrltjgRkEEMBBXmfhunRyigJbDrjb8FaQSNc8B8NgNIL920AYwMDsWjo7kU0V0zPWGfq7U110VR8JXXasZZY45NMD3BvWT2IWbiAC8xteG5J7cHCyVbrVuxTqwPg6oSSyywB8kMUro2yRgOdD1rSGv4YDgMjJxjKzmg9Q6MfIOj/AHiT20iuFQdDHuk6LdG3uducaILnE5Jd1jwcnv71foNHVKUl+vFFG6EFk/WObYEhjkjdFJC5h6pwcMhx4g9iqhoWpNMThPVc6FwkhEtjWJWMka0sa7ZJYI4Z4LpEQUf8noY61NtSzZp2q1dsIlqSysgeS1nWB0AcBteWgnaWntBB4ng7rXQ6vNXdXMRbrFkl0bzNC5xryEnrH4kyc5O5vrOF6uvMNY4a3cPdrdk/+leg+Tzlzj5SrLQo2S3LzBR8LsGlWNcl3VMrnr5gZH2Gne0cvFyT3cFVroeiHylqf4Nq/tMqDoaujRV4WRvu6nI8l8lhzb1qNss0ji978NfuAJPAbuX0mwgr16sTIa8TIomZIYwYGXHJce0k8yTxK+iICIiCVClQglERBCIiD6N5etEby9aIMDzKhSeZUICIiAiIgIiICIiDiOl4czUqcr2vET9PZGyTY4sMjJpHOZuAxkBwPrUdFNN1I3RqkkPVUcaj4O+Q4ksCd0bGlsRAcG+9JycZ4YGDldzkhQgIiIC861yKeLWNXL4LREtgTxdVWsSiVjoY8dWY2EE8CMZ5r0VTkjtP0oKTovp1vS9Hq17ZaLMj32pmMzthdNtPVZPHLQAD5crQ13olpVuOxepUoxqccjLcQYIm9bK2USuDS4cHO4/bAZPHnldSiDy91bUASDp2pgg4INC3kesMI/Opb0a1PWnQtfprRWr9a93uw65ThfJIAxobHABO/HEkZYOXvl6hk95+lEGpptJmnUalJhY4QR7XOjjbCwvcS9xjiZwa3JO1o5DA44W0iICIiAuC6R6LqUNyxqUbBNRfdFyV0bnGaAPhdC8PiDcloJByDyPEe9yu9UoPIvCqXzmv65WfvXU9DWPktapaY1xrGrVrNm2uEckolklc2Nx4HAIyR3j1dnhv9Fv5IU93kQQiIgIiICIiAiIgIiIPo3l60RvL1ogxLSST3ptciIG1ybXIiBtcm1yIgbXJtciIG1ybXIiBtcm1yIgbXJtciIG1ybXIiBtcm1yIgbXJtciIG1ybXIiBtcm1yIgbXJtciIG1ybXIiBtcm1yIgbXJtciIG1ybXIiBtcm1yIgbXJtciIMhwGCiIg//2Q==" alt="profile image"> 
+      </div>
+      <div class="right">
+        <div class="topic">Frontend Web Development</div>
+        <p>I like to code things from scratch, and enjoy making creative web designs. I have learnt HTML, CSS,
+          React.js
+          for front-end. Also I have used editors like VS Code, Atom. Other than that I'm also familiar with
+          Bootstrap,
+          Git, Codepen</p>
+        <div class="topic">Backend Web Development</div>
+        <p>I have also learned javascript, Nodejs, Express js for Backend. Along- with that i have also used MongoDB and
+          Firebase in my projects.</p>
+        <div class="button">
+          <button>
+            <a download="" href="" class="button button-flex">Download</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<!--       
+     
+                          
+ <My Services Section Start --> 
+     <h2 class="pro">MY PROJECTS</h2>
+    <section class="services" id="services">
+  
+         <div class="services-project">
+      <div class="services-project-list">
+        <div class="services-project-name">Quora Clone</div>
+           <p class="services-project-des">User can log in if already registered, 
+              User can search for a specific question using 
+             the search input field.  User can answer questions 
+             by clicking on the "add answer" button.
+             related to specific recipe.</p>
+           <div class="services-project-menu">
+             <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://nimble-buttercream-f43e3f.netlify.app/')">
+            
+               <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/Girianamika7277/myQuora.git')">
+           </div>
+         </div>
+ 
+         
+       </div>
+     </div>
+     
+    
+     </div>
+     </div>
+      <div class="services-project">
+         <div class="services-project-list">
+           <div class="services-project-name">Book My Show </div>
+           <p class="services-project-des">Book my show clone project is a
+              movie ticket booking project. It uses TMDB API to generate list 
+              of movies. User can book ticket according to his choice of movie,
+               cinema, date, time and seat.</p>
+           <div class="services-project-menu">
+             <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://zingy-alfajores-40ef3a.netlify.app/')">
+            
+               <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/Girianamika7277/BookMyShow-Clone---React-Project---b7dqh397hx0o.git')">
+           </div>
+         </div>
+         
+       </div>
+     </div>
+     </div>
+      <div class="services-project">
+         <div class="services-project-list">
+           <div class="services-project-name">Parallax </div>
+           <p class="services-project-des">Parallax websites create the exact same 
+             optical illusion. Just as in real, physical life, background elements 
+             are often set to move at much slower speeds than foreground elements</p>
+           <div class="services-project-menu">
+             <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://girianamika7277.github.io/Parallax/')">
+            
+               <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/Girianamika7277/Parallax.git')">
+           </div>
+         </div>
+         
+       </div>
+     </div>
+     </div>
+      <div class="services-project">
+         <div class="services-project-list">
+           <div class="services-project-name">Weather clone</div>
+           <p class="services-project-des">WebWeather is the state of the atmosphere,
+              describing for example the degree to which it is hot or cold, wet or dry, 
+              calm or stormy, clear or cloudy.</p>
+           <div class="services-project-menu">
+             <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://girianamika7277.github.io/ns-project/')">
+            
+               <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/Girianamika7277/ns-project.git')">
+           </div>
+         </div>
+         
+       </div>
+     </div>
+     </div>
+     </div>
+     
+   </section>  
+   <!-- --------- Academic Qualification ----------->
+   <h2 class="acmy">Academic Education</h2>
+   <section class="academic py-5" id="academic">
+     <div class="content py-5>
+       
+       <div class="education-section">
+         <div class="education-name">
+           <div class="education-title">
+             <p class="p-title">Bachelor of Computer Applications (BCA)</p>
+             
+           </div  >
+           <div class="college-details">
+             <div class="College-name">
+               <p class="p">Babasaheb Bhimrao Ambedkar Bihar University</p>
+               <p class="p">Percentage of Marks:77%</p>
+             </div>
+             <p class="p-year"> 2017-2020</p>
+           </div>
+ 
+           <div class="education-title">
+             <p class="p-title">12th from Bihar Board</p>
+           </div>
+           <div class="college-details">
+             <div class="college-name">
+               <p class="p">completed 12th from M,S College motihari (BIHAR)
+               </p>
+               <p class="p">Percentage of Marks:57%</p>
+             </div>
+             <p class="p-year"> 2015-2017</p>
+           </div>
+ 
+           <div class="education-title">
+             <p class="p-title">10th from Bihar Board</p>
+           </div>
+           <div class="college-details">
+             <div class="college-name">
+               <p class="p">completed 10th from J S K D High School jagapaker
+               </p>
+               <p class="p">Percentage of Marks:62%</p>
+             </div>
+             <p class="p-year"> 2014-2015</p>
+           </div>
+         </div>
+       </div>
+ 
+     </div>
+   </section>
+ 
+   </section>
+   
+  
+ 
+          
+
+
+
+ 
+   <!-- Contact Me section Start  -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic"></div>
+        <p>To know more about my works or work with me Contact me for further process. </p>
+        <div class="contact-columns">
+          <div class="contact media-icons">
+            <div class="contact-columns-media">
+              <a href="https://bit.ly/3W6T4BR"><i class="fab fa-whatsapp-square "></i></a>
+              <div class="contact-menu">
+                <div class="contact-type"> WhatsApp Me</div>
+                <div class="contact-type-details">+91-7762805789</div>
+              </div>
+            </div>
+            <div class="contact-columns-media">
+              <a href=""><i class="fas fa-envelope"></i></a>
+              <div class="contact-menu">
+                <div class="contact-type">E-mail</div>
+                <div class="contact-type-details">girianamika7277@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="contact-columns-media">
+              <a href=".linkediwwwn.com"><i class="fab fa-linkedin-in "></i></a>
+              <div class="contact-menu">
+                <div class="contact-type"> Linkedin</div>
+                <div class="contact-type-details"></div>
+              </div>
+            </div>
+            <div class="contact-columns-media">
+            
+              <div class="contact-menu">
+            
+                <div class="contact-type-details"></div>
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formspree.io/f/mqkjrqpd" method="POST" class="contact__form grid">
+
+            <div class="contact__content">
+              <label class="contact__label">Name:</label><br>
+              <input type="text" id="name" name="name" placeholder="Full Name" class="contact__input" required>
+            </div>
+
+            <div class="contact__content">
+              <label class="contact__label">Email:</label><br>
+              <input type="email" id="email" name="email" placeholder="E-mail" class="contact__input" required>
+            </div>
+
+            <div class="contact__content">
+              <label class="contact__label">Message:</label><br>
+              <textarea name="message" id="message" required name="message" cols="0" rows="7"
+                placeholder="Write your message here" class="contact__input"></textarea>
+            </div>
+            <div>
+              <button type="submit" onclick="onSubmitForm()" value="Send Email" class="button button--flex">
+                Send Message <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    
+    <div class="text">
+      <span>Created By <a href="#">Anamika Kumari</a> | &#169; 2023 </span>
+      <div class="media-icons">
+
+        <a href="https://bit.ly/3W6T4BR"><i class="fab fa-whatsapp-square" target="_blank"></i></a>
+        <a href=".linkediwwwn.com"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Girianamika7277" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+<script src='https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js'></script>
+
+<script  src="./script.js"></script>
+
+</body>
+
+</html>
